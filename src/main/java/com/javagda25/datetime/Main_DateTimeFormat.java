@@ -10,6 +10,7 @@ public class Main_DateTimeFormat {
 
         LocalDateTime dateTime = LocalDateTime.now();
 
+
         // Zmiana - Mamy datę/czas i chcę ją wypisać w zadanym formacie
         // stwórz formatter o podanym formacie
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
